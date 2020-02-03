@@ -6,5 +6,5 @@ Twilio account in dotenv
 
 ```
 $ yarn install
-
+$ yarn start
 ```
