@@ -80,7 +80,7 @@ class App extends Component {
   }
 
   // Detach the Participant's Tracks from the DOM.
-  detachParticipantTracks(participant) {
+  detachParticipantTracks = (participant) => {
     const tracks = this.fetchTracks(participant);
     tracks.forEach(this.detachTrack);
   }
